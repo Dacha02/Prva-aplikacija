@@ -30,7 +30,8 @@ a {
 
 .firstContainter{
   background-color: lightgray;
-  padding-top: '10px';
+  padding-top: 10px;
+  display: flex;
 }
 
 @media (max-width:700px){
@@ -39,4 +40,20 @@ a {
     line-height: 2;
     word-wrap: break-word;
   }
+}
+
+.bckImg{
+  display: flex;
+  padding: 50px 50px;
+  flex-basis: 15%;
+  width: 800px;
+}
+
+
+.firstLine{
+  text-align: center;
+  padding: 50px;
+  text-shadow:rgba(0, 0, 0, 0.7) 0px 0px 11px;
+  font-size: 50px;
+  display: flex;
 }
