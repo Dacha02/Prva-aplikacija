@@ -10,8 +10,8 @@ function About() {
                     <img src={Slike} alt="" className='bckImg'/>
                     <h1 className='firstLine'>About To Do List App</h1>
                 </div>
-                <div>
-                    <p>Thsi is my first app in react</p>
+                <div className='secondContainer'>
+                    <p className='secondLine'>This is my first app in react</p>
                 </div>
             </div>
         </React.Fragment>
