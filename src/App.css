@@ -1,10 +1,10 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.4;
 }
@@ -14,8 +14,7 @@ a {
   text-decoration: none;
 }
 
-
-.btn{
+.btn {
   display: inline-block;
   border: none;
   background: #555;
@@ -24,33 +23,32 @@ a {
   cursor: pointer;
 }
 
-.btn:hover{
-  background: '#666';
+.btn:hover {
+  background: "#666";
 }
 
-.firstContainter{
+.firstContainter {
   background-color: lightgray;
   padding-top: 10px;
   display: flex;
 }
 
-@media (max-width:700px){
-  body{
+@media (max-width: 700px) {
+  body {
     font-size: 14px;
     line-height: 2;
     word-wrap: break-word;
   }
 }
 
-.bckImg{
+.bckImg {
   display: flex;
   padding: 50px 50px;
   flex-basis: 15%;
   width: 45%;
 }
 
-
-.firstLine{
+.firstLine {
   padding-top: 10%;
   padding-left: 10%;
   padding-right: 1%;
@@ -60,33 +58,33 @@ a {
   display: flex;
 }
 
-.secondContainer{
+.secondContainer {
   width: 100%;
   text-align: center;
 }
-.secondLine{
+.secondLine {
   font-size: 50px;
 }
 
-@media (max-width:1500px){
-  .firstLine{
+@media (max-width: 1500px) {
+  .firstLine {
     padding-left: 3%;
   }
 }
 
-@media (max-width:1000px){
-  .firstLine{
+@media (max-width: 1000px) {
+  .firstLine {
     padding-left: 3%;
     font-size: 35px;
   }
-  .bckImg{
+  .bckImg {
     margin: 40px;
     padding: 0px;
   }
 }
 
-@media (max-width:700px){
-  .firstLine{
+@media (max-width: 700px) {
+  .firstLine {
     padding-left: 2%;
     font-size: 35px;
     padding-top: 5%;
@@ -97,8 +95,8 @@ a {
   }
 }
 
-@media (max-width:500px){
-  .firstLine{
+@media (max-width: 500px) {
+  .firstLine {
     text-align: center;
     font-size: 50px;
     padding: 5px;
@@ -109,13 +107,13 @@ a {
     width: 88%;
   }
 
-  .firstContainter{
+  .firstContainter {
     flex-direction: column;
   }
 }
 
-@media (max-width:400px){
-  .firstLine{
+@media (max-width: 400px) {
+  .firstLine {
     text-align: center;
     font-size: 50px;
     padding: 5px;
@@ -126,7 +124,7 @@ a {
     width: 88%;
   }
 
-  .firstContainter{
+  .firstContainter {
     flex-direction: column;
   }
 }
